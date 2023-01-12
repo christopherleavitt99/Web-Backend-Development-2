@@ -1,0 +1,23 @@
+{
+    "contact1": {
+    "firstName":"Nathan",
+    "lastName":"Cook",
+    "birthday":"October 31",
+    "email":"coo19035@byui.edu",
+    "favoriteColor":"Orange"
+},
+    "contact2": {
+    "firstName":"Tanner",
+    "lastName":"Robinson",
+    "birthday":"December 9",
+    "email":"rob16041@byui.edu",
+    "favoriteColor":"Green"
+},
+    "contact3": {
+    "firstName":"Jeremy",
+    "lastName":"Leavitt",
+    "birthday":"March 4",
+    "email":"jeremy.p.leavitt@gmail.com",
+    "favoriteColor":"Blue"
+}
+}

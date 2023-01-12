@@ -1,8 +1,12 @@
-const routes = require('express').Router();
+// const router = require('express').Router();
+const express = require('express')
+const router = express.Router();
+// const { Router } = require('express');
+// const myController = require('../controllers');
+// const router = require('./contacts');
 
-const myController = require('../controllers')
+// routes.get('/', myController.awesomeFunction);
+// routes.get('/awesome', myController.returnAnotherPerson);
+router.use('./contacts', require('./contacts'))
 
-routes.get('/', myController.awesomeFunction);
-routes.get('/awesome', myController.returnAnotherPerson);
-
-module.exports = routes;
+module.exports = router;
