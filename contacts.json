@@ -1,23 +1,34 @@
-{
-    "contact1": {
-    "firstName":"Nathan",
-    "lastName":"Cook",
-    "birthday":"October 31",
-    "email":"coo19035@byui.edu",
-    "favoriteColor":"Orange"
-},
-    "contact2": {
-    "firstName":"Tanner",
-    "lastName":"Robinson",
-    "birthday":"December 9",
-    "email":"rob16041@byui.edu",
-    "favoriteColor":"Green"
-},
-    "contact3": {
-    "firstName":"Jeremy",
-    "lastName":"Leavitt",
-    "birthday":"March 4",
-    "email":"jeremy.p.leavitt@gmail.com",
-    "favoriteColor":"Blue"
-}
-}
+[{
+  "_id": {
+    "$oid": "63bf1d1d1f59f2630f964b6f"
+  },
+  "contact1": {
+    "firstName": "Nathan",
+    "lastName": "Cook",
+    "birthday": "October 31",
+    "email": "coo19035@byui.edu",
+    "favoriteColor": "Orange"
+  }
+},{
+  "_id": {
+    "$oid": "63bf1d3f1f59f2630f967826"
+  },
+  "contact2": {
+    "firstName": "Tanner",
+    "lastName": "Robinson",
+    "birthday": "December 9",
+    "email": "rob16041@byui.edu",
+    "favoriteColor": "Green"
+  }
+},{
+  "_id": {
+    "$oid": "63bf1d591f59f2630f9698b9"
+  },
+  "contact3": {
+    "firstName": "Jeremy",
+    "lastName": "Leavitt",
+    "birthday": "March 4",
+    "email": "jeremy.p.leavitt@gmail.com",
+    "favoriteColor": "Blue"
+  }
+}]
