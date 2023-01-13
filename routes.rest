@@ -5,3 +5,13 @@ GET http://localhost:8080/contacts/63bf1d1d1f59f2630f964b6f
 GET http://localhost:8080/contacts/63bf1d3f1f59f2630f967826 
 ###
 GET http://localhost:8080/contacts/63bf1d591f59f2630f9698b9 
+###
+GET https://chrisleavitt2.onrender.com/contacts/
+###
+GET https://chrisleavitt2.onrender.com/contacts/63bf1d1d1f59f2630f964b6f
+###
+GET https://chrisleavitt2.onrender.com/contacts/63bf1d3f1f59f2630f967826
+###
+GET https://chrisleavitt2.onrender.com/contacts/63bf1d591f59f2630f9698b9
+###
+
