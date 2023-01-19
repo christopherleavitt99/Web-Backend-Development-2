@@ -15,7 +15,7 @@ content-type: application/json
     "favoriteColor": "Blue"
 }
 ### PUT contact
-PUT http://localhost:8080/contacts/63c96b86453fa32de879fe22 HTTP/1.1
+PUT http://localhost:8080/contacts/63c96dfe7181885d9cef5df3 HTTP/1.1
 content-type: application/json
 
 {
@@ -26,7 +26,7 @@ content-type: application/json
     "favoriteColor": "Orange"
 }
 ### DELETE contact
-DELETE http://localhost:8080/contacts/63c8494c73c15e3558dd6d21 HTTP/1.1
+DELETE http://localhost:8080/contacts/63c96dfe7181885d9cef5df3 HTTP/1.1
 ###
 
 // Render
