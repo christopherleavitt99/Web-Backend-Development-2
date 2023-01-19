@@ -1,10 +1,10 @@
 // LOCALHOST
 ### Get all contacts
-GET http://localhost:8080/Contacts/
+GET http://localhost:8080/contacts/
 ### Get contact by id GET
-GET http://localhost:8080/Contacts/63bf1d1d1f59f2630f964b6f 
+GET http://localhost:8080/contacts/63bf1d1d1f59f2630f964b6f 
 ### Create contact
-POST http://localhost:8080/Contacts/ HTTP/1.1
+POST http://localhost:8080/contacts/ HTTP/1.1
 content-type: application/json 
 
 {
@@ -15,7 +15,7 @@ content-type: application/json
     "favoriteColor": "Blue"
 }
 ### PUT contact
-PUT http://localhost:8080/Contacts/63c8494c73c15e3558dd6d21 HTTP/1.1
+PUT http://localhost:8080/contacts/63c96b86453fa32de879fe22 HTTP/1.1
 content-type: application/json
 
 {
@@ -26,7 +26,7 @@ content-type: application/json
     "favoriteColor": "Orange"
 }
 ### DELETE contact
-DELETE http://localhost:8080/Contacts/63c8494c73c15e3558dd6d21 HTTP/1.1
+DELETE http://localhost:8080/contacts/63c8494c73c15e3558dd6d21 HTTP/1.1
 ###
 
 // Render
