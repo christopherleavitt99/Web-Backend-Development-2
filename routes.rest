@@ -31,12 +31,13 @@ DELETE http://localhost:8080/contacts/63c96dfe7181885d9cef5df3 HTTP/1.1
 
 // Render
 ### Get all contacts
-GET 
+GET http://chrisleavitt3.onrender.com/contacts
 ### Get contact by id GET
-GET  
+GET  http://chrisleavitt3.onrender.com/contacts/63bf1d1d1f59f2630f964b6f
 ### Create contact
-POST  HTTP/1.1
+POST http://chrisleavitt3.onrender.com/contacts HTTP/1.1
 content-type: application/json
+
 {
     "firstName": "Nicholas",
     "lastName": "Leavitt",
@@ -45,8 +46,9 @@ content-type: application/json
     "favoriteColor": "Blue"
 }
 ### PUT contact
-PUT  HTTP/1.1
+PUT http://chrisleavitt3.onrender.com/contacts/63c971345866d9a5c92ab846 HTTP/1.1
 Content-Type: application/json
+
 {
     "firstName": "Nathan",
     "lastName": "Cook",
@@ -55,5 +57,5 @@ Content-Type: application/json
     "favoriteColor": "Orange"
 }
 ### DELETE contact
-DELETE  HTTP/1.1
+DELETE http://chrisleavitt3.onrender.com/contacts/63c971345866d9a5c92ab846 HTTP/1.1
 ###
