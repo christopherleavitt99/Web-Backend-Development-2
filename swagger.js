@@ -6,8 +6,9 @@ const doc = {
     description: 'Description'
   },
   host: 'localhost:3000',
-  // host: 'http://chrisleavitt3.onrender.com',
   schemes: ['http']
+    // host: 'http://chrisleavitt3.onrender.com',
+    // schemes: ['https']
 };
 
 const outputFile = './swagger.json';
