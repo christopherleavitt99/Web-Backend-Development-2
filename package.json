@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "swagger-autogen": "node ./swagger.js"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christopherleavitt99/Web-Backend-Development-2.git"
