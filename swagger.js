@@ -5,10 +5,10 @@ const doc = {
     title: 'My API',
     description: 'Description'
   },
-  host: 'localhost:3000',
-  schemes: ['http']
-    // host: 'http://chrisleavitt3.onrender.com',
-    // schemes: ['https']
+  // host: 'localhost:3000',
+  // schemes: ['http']
+    host: 'http://chrisleavitt4.onrender.com',
+    schemes: ['https']
 };
 
 const outputFile = './swagger.json';
