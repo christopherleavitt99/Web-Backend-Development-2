@@ -7,7 +7,7 @@ const doc = {
   },
   // host: 'localhost:3000',
   // schemes: ['http']
-    host: 'http://chrisleavitt4.onrender.com',
+    host: 'http://chrisleavitt4.onrender.com/',
     schemes: ['https']
 };
 
